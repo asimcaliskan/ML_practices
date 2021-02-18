@@ -58,8 +58,9 @@ def get_mean_reward():
 
 """
     What is the softmax?
-    It is a probability distrubition 
-
+    It is a probability distribution over the action values
+    >take action vector
+    <return probability distribution 
 """
 def softmax(value, tau):
     return np.exp(value / tau) / np.sum(np.exp(value / tau))
