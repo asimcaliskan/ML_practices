@@ -58,7 +58,7 @@ def get_mean_reward():
 
 """
     What is the softmax?
-    
+    It is a probability distrubition 
 
 """
 def softmax(value, tau):
